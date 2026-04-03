@@ -1,4 +1,4 @@
-local library = (syn and loadstring(game:HttpGet("https://github.com/GhostDuckyy/UI-Libraries/blob/main/DEADCELL%20REMAKE/source.lua?raw=true"))()) or loadstring(game:HttpGet("https://github.com/GhostDuckyy/UI-Libraries/blob/main/DEADCELL%20REMAKE/Modified/source.lua?raw=true"))();
+local library = (syn and loadstring(game:HttpGet("https://raw.githubusercontent.com/NeverHeronxc/deadcell/refs/heads/main/source.lua?raw=true"))()) or loadstring(game:HttpGet("https://raw.githubusercontent.com/NeverHeronxc/deadcell/refs/heads/main/Modsource.lua.txt?raw=true"))();
 
 local theme = {
     ["Default"] = {
