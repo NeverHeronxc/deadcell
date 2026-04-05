@@ -1,4 +1,14 @@
--- settings (so u dont have to scroll)
+--Transparency
+local mt = getmetatable(Instance)
+local old = mt.__newindex
+
+mt.__newindex = function(t, k, v)
+    if t:IsA("UICorner") and k == "Transparency" then
+        return
+    end
+    old(t, k, v)
+end
+
 local settings = {
     folder_name = "zephyrus"; -- stupid shit
     default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
